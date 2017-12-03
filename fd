@@ -1,0 +1,47 @@
+{
+	"ecmaVersion": 6,
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"ecmaFeatures": {
+		"modules": true
+	},
+	"rules": {
+		"no-console": 0,
+		"no-control-regex": 0,
+		"no-redeclare": 0,
+		"no-inner-declarations": 0,
+	},
+	"globals": {
+		"ServerSettings",
+		"debug",
+		"show_warn",
+		"commandsProcessed",
+		"talkedToTimes",
+        "Times",
+        "cWarn",
+        "cError",
+        "cDebug",
+        "cGreen",
+        "cGrey",
+        "cYellow",
+        "cBlue",
+        "cRed",
+        "cServer",
+        "cUYellow",
+        "cBgGreen"
+	},
+	extends: "eslint:recommended"
+}
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
